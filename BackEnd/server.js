@@ -1,7 +1,10 @@
 // entry point for the server for backEnd
-const dotenv = require('dotenv');
-const express = require('express');
-const products = require('./data/products');
+// const dotenv = require('dotenv');
+// const express = require('express');
+// const products = require('./data/products');
+import dotenv from 'dotenv';
+import express from 'express';
+import products from './data/products.js';
 
 dotenv.config();
 
